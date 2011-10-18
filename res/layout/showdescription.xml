@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:autoLink="all"
+    android:text="story goes here ...."
+    android:id="@+id/storybox"
+    />
+<Button
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Back"
+	android:id="@+id/back"
+	/>    
+	<Button
+					android:id="@+id/Facebook"
+					android:background="@drawable/facebook"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="FacebookShare"
+					/>
+	<Button
+					android:id="@+id/Twitter"
+					android:background="@drawable/twitter"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="TwitterShare"
+			    	/>
+	<Button
+					android:id="@+id/Kik"
+					android:background="@drawable/kik"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="KikShare"
+			    	/> 
+	<Button
+					android:id="@+id/Email"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="Send Email"
+			    	android:onClick="EmailIt"
+			    	/> 
+	
+
+</LinearLayout>

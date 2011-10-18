@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="?android:attr/listPreferredItemHeight"
+	    android:padding="6dip">
+		<TextView
+		 xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:id="@+id/rowtext"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:width="250dp"
+		 android:textSize="10sp" />
+		 <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+			 <Button
+					android:id="@+id/Facebook"
+					android:background="@drawable/facebook"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="FacebookShare"
+					/>
+		</LinearLayout>
+		<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+			 <Button
+					android:id="@+id/Twitter"
+					android:background="@drawable/twitter"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="TwitterShare"
+			    	/>
+		</LinearLayout>
+		<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+			 <Button
+					android:id="@+id/Kik"
+					android:background="@drawable/kik"
+				    android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:onClick="KikShare"
+			    	/> 
+	 	</LinearLayout>
+	 </LinearLayout>
+ <!-- <Button
+android:id="@+id/goBack"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/go_back"
+android:paddingRight="20dp"
+android:textSize="16sp" 
+android:textColor="#000000"
+android:singleLine="true"
+android:onClick="toHome"
+android:gravity="center_vertical"
+android:visibility="visible" />
+ -->

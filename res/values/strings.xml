@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Home Screen Text -->
+	<string name="welcome_message">Welcome to RSSKiker!</string>
+    <string name="touch_to_continue">Touch the screen to continue</string>
+    <string name="by_this_guy">By Charles De Souza</string>
+    
+    <!-- RSS Displayer -->
+    <string name="title_text">Below the feeds that you have subscribed to</string>
+    <string name="instructions">Click on a field that you may be interested in reading! Also feel free to share your favorite feeds on Facebook, Twitter or even KiK it to your friends</string>
+    <string name="go_back">Go Home</string>
+    <string name="send_facebook">Sharing on Facebook!</string>
+    <string name="twitter_share">Tweeting on Twitter!</string>
+    <string name="kik_share">Kik-ing to a friend</string>
+    
+    <!-- Demo Text -->
+    <string name="hello">Hello World, RSSKikerActivity!</string>
+    <string name="app_name">RSSKiker</string>
+</resources>
