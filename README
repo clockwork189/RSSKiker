@@ -1,0 +1,9 @@
+I worked on this Android Application for 7 whole hours. Right now it works independant of serverside components. The RSS URL is hardcoded into the program.
+
+Possible Improvements:
+1) Integrate Server Side component to allow use of SQLite Database to save RSS feed urls.
+2) Test and debug errors. This application is not very smooth.
+3) Improve UI. With all my efforts into just coding the application, I did not get to focus on UI.
+4) Integrate it with webkit browser. It would be cool if users could browse websites, subscribe to RSS feeds and open said RSS feeds in a separate tabs.
+5) Correct Social Media sharing. I did not implement the social media sharing features since I was pressed for time
+
